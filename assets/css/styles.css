@@ -2,4 +2,104 @@
 
 * {
 	font-family: Arial;
+	box-sizing: border-box;
+}
+
+body {
+	margin 0;
+	line-height: 1.4;
+}
+
+body.bowpage {
+	background-color: #111827;
+	color: #fffef7eb;
+
+}
+
+body.matpage {
+	background-color: #111827;
+	color: #fffef7eb;
+}
+
+body.homepage {
+	background-color: #111827;
+	color: #fffef7eb;
+}
+body.nervespage {
+	background-color: #111827;
+	color: #fffef7eb;
+}
+
+body.refereepage {
+	background-color: #111827;
+	color: #fffef7eb;
+}
+
+body.concentrationpage {
+	background-color: #111827;
+	color: #fffef7eb;
+}
+
+body.fightpage {
+	background-color: #111827;
+	color: #fffef7eb;
+}
+
+.scene {
+	max-width: 760px;
+	margin: 25px auto;
+}
+
+.place {
+	font-size: 20px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #ff1b1beb;
+}
+
+h1 {
+	font-size: 80px;
+	line-height: 1;
+	margin: 20px 0;
+	color: #ffe032eb
+}
+
+p {
+	font-size: 30px;
+	color: #fffef7eb;
+}
+
+.scene img {
+	display: block;
+	width: 100%;
+	max-width: 600px;
+	margin: 30px auto;
+	border-radius: 18px;
+}
+
+/* I did not know how to animate this text so I did some research*/
+.animated-rainbow {
+  font-size: 48px;
+  font-weight: bold;
+  display: inline-block;
+  
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+  
+  background-size: 200% auto;
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  
+  animation: rainbow-shift 3s linear infinite;
+}
+
+@keyframes rainbow-shift {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
 }
